@@ -1,0 +1,57 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+/* MOBILE */
+.albumsContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  padding: 1%;
+}
+/* TABLET */
+@media (min-width: 640px) {
+  .albumsContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+/* LAPTOP AND DESKTOP */
+@media (min-width: 1024px) {
+  .albumsContainer {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1%;
+}
+
+.search {
+  width: 50%;
+  height: 30px;
+  padding-left: 1%;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 0.5rem;
+  outline-width: 0;
+  background-color: white;
+
+}
+
+.albumName {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 5px 10px 5px;
+  border: 1px solid red;
+  border-radius: 0.5rem;
+}
+
+.collectionName {
+  padding-top: 10px;
+  font-size: 15px;
+  text-align: center
+}
