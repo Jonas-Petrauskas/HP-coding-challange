@@ -29,6 +29,7 @@ function App() {
     <div className="App">
           <div className="input">
             <input
+              data-testid='searchInput'
               className="search"
               type="text" 
               placeholder="Search album name.."
