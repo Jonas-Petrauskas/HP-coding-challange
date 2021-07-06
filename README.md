@@ -14,7 +14,7 @@
 <img src="assets/search.png" width="500"/>
 </p>
 
-### Table size screen
+### Tablet size screen
 
 <p align="left">
 <img src="assets/tablet.png" width="500"/>
